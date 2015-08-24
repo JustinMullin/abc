@@ -18,8 +18,12 @@ Technical Notes
 ---------------
 The ACME Super Deluxe Letter Counter 6.0 was written in Scala and uses the excellent
 [LibGDX game development framework](https://libgdx.badlogicgames.com/) in conjunction
-with [Box2D](http://box2d.org) for physics.  This is a prime example of
+with [Box2D](http://box2d.org) for physics.
+
+This is a prime example of
 hurry-quick-get-something-anything-at-all-out-the-door coding here folks.  Please don't
 look too carefully at the code.  It's gross, and may burn your eyes (in which case I
 recommend rinsing with water and calling your physician if the stinging worsens or lasts for more
 than 12 hours).
+
+...okay fine, if you want to see the meat of the source, it's in PhysicsWorld.scala and Letter.scala.  Everything else is framework n' stuff I reuse for Ludum Dare and other game jams and little side projects.  =)
