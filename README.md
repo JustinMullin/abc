@@ -26,4 +26,4 @@ look too carefully at the code.  It's gross, and may burn your eyes (in which ca
 recommend rinsing with water and calling your physician if the stinging worsens or lasts for more
 than 12 hours).
 
-...okay fine, if you want to see the meat of the source, it's in [PhysicsWorld.scala](PhysicsWorld.scala) and [Letter.scala](Letter.scala).  Everything else is framework n' stuff I reuse for Ludum Dare and other game jams and little side projects.  =)
+...okay fine, if you want to see the meat of the source, it's in [PhysicsWorld.scala](core/src/main/scala/com/jmullin/abc/entity/PhysicsWorld.scala) and [Letter.scala](core/src/main/scala/com/jmullin/abc/entity/Letter.scala).  Everything else is framework n' stuff I reuse for Ludum Dare and other game jams and little side projects.  =)
