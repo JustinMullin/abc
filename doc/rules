@@ -1,0 +1,65 @@
+Turn based, each turn is a cycle (roughly a month)
+
+Turn order:
+ - SHUTTLE ARRIVES: If scheduled, new citizens and purchased goods arrive at colony
+ - PLANNING:
+    - (Re)assign citizens to jobs
+    - Create construction projects, allocate engineers
+    - Adjust taxation, policies
+ - PRODUCTION: Buildings produce goods, income from taxation
+ - CONSTRUCTION: Workers apply effort to assigned projects, projects exceeding total effort are completed
+
+Population and jobs:
+ - Population can't exceed total housing capacity
+ - As long as there is adequate housing and employment, new citizens will immigrate to the colony
+ - Immigration happens at a flat base rate, and is modified by various improvements
+ - Citizens are assigned to available jobs, enabling activities or bonuses based on where they are assigned
+ - Citizens produce a small amount of income through taxation (modified through various means)
+
+Projects:
+ - Each project has a capacity (max number of workers that can be assigned), and a total effort (number of man cycles required to finish)
+ - Workers are assigned during the planning phase, up to the bandwidth; many projects require specialized workers (engineers, etc.)
+ - When the total effort is met (over any number of turns), the project is complete
+
+Engineers:
+ - Used for construction projects (new buildings, upgrades, repairs, etc.)
+ - Idle engineers (TODO: what do they do?)
+
+Scientists:
+ - Used for research projects, which unlock new technologies, buildings, upgrades, etc.
+ - Idle scientists (TODO: what do they do?)
+
+Elders:
+ - Used for public projects, which unlock new policies, laws, etc.
+ - Idle elders (TODO: what do they do?)
+
+Blocks and buildings:
+ - Blocks are constructed on the map, at their most basic are 1x1
+ - Constructing a block requires completion of a construction project on the site
+ - Starting a block construction project will typically carry material costs, which are paid up front
+ - Blocks have a wide range of effects, most typically increasing capacities, production of goods, and opening job slots
+ - Some shapes and combinations of smaller blocks can be compounded into a larger block with a special construction project
+ - Blocks can typically be demolished or deconstructed, sometimes for a partial return on construction costs
+ - A lone block or set of connected blocks is called a building
+
+Power:
+ - Buildings require energy to function properly
+   - A flat amount of energy is required for a building
+   - Energy usage grows as the building does, faster as blocks are added to larger buildings
+   - Some blocks require additional energy on top of the normal energy cost of adding a block to the building
+ - If a building is underpowered, its composite blocks will function at a reduced level (or not at all)
+ - Any power blocks attached to a building will supply power
+
+Trade and economy:
+ - Most goods can be bought and sold at market prices
+ - Purchased goods will take a few cycles to arrive at the colony
+ - Producing improved goods in the colony is generally cheaper and more efficient than buying directly
+ - During the early game, before infrastructure is developed, most goods will need to be purchased
+
+Goals:
+ - Main game:
+    - SimAnt style campaign: choose a colony to develop on map, produce a self-sufficient colony and launch another colony ship
+    - Technologies stay unlocked, previous colonies can help in various ways
+    - Pseudo-competitive against other factions on the galaxy map?
+ - Challenge colonies (X credits/turn by year Y, export all goods on a strict budget, keep a colony alive on a barren moon, etc.)
+ - Free play w/ loose achievement goals or play creatively a-la Sim City

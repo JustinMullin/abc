@@ -1,0 +1,27 @@
+DESIGN GOALS:
+
+ - Exclusive decisions/diverging strategies/mutually exclusive paths
+ - Interesting synergies; promote discovery and experimentation
+ - Make all information public and accessible
+ - Allow creativity (no dominant strategies, difficult to optimize)
+
+PROBLEMS TO WATCH/SOLVE:
+
+ - If the focus is too much on buildings, what slows down an engineering heavy strategy?
+   - Material and engineering costs are a bottleneck, but engineers can just build production/power facilities
+   - Maybe it's just enough to provide lots of requirements and force prioritization
+
+BUILDING SHAPES
+
+ - Encourage visually pleasing building shapes
+   - Discourage sprawl (lots of small buildings) and stacking (one large building)
+     - Flat energy cost for new buildings (5?)
+     - Growing energy cost as buildings grow (slow growth early, large growth for already large buildings)
+   - Encourage holes
+     - Bonuses for empty cells near some blocks (vary between 1, 2, 3 empty cells)
+     - Some buildings are naturally "hole-like" for aesthetic purposes?
+   - Encourage natural growth
+     - Hopefully a side effect of adjacency bonuses and composite buildings
+   - Encourage symmetry
+     - Or at least don't penalize symmetry, allowing the player to build symmetrically if desired
+ - A "completed" colony should naturally look nice

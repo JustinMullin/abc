@@ -1,0 +1,40 @@
+Colony Pod - +4 max pop, 1 engineer job, 8 scaffolding, +1 food, +1 energy
+
+ENERGY
+  Geothermal Generator (4/4): +2 energy per adjacent dirt tile, +3 from rock or bedrock; draws from 2 best tiles
+  Solar Array (1/1): +1 energy, +1 if adjacent to an empty cell
+  Power Regulator (12/8): Reduces power consumption of attached building from building size
+
+  Upgrades:
+    Solar Hub (4x solar array surrounding empty cell or scaffold, 2/2): +12 energy
+
+ECONOMY
+  Marketplace
+  Bank
+
+HOUSING AND EMPLOYMENT
+  Habitation (2/2): +1 max pop
+  Workshop (4/4, 1e): +1 engineer job
+  Laboratory (4/4, 1e): +1 scientist job
+  Council Chamber (4/4): +1 elder job
+  Commons (6/4, 2e): +1 job of corresponding type for each employment building immediately adjacent, max 1 per job type
+
+  Upgrades:
+    Hab Complex (2x2 Habitation, 2/2, 1e): +6 max pop
+
+PRODUCTION
+  Fabricator: +1 construction mats/turn, reqs. 1 metal/turn and 1 plastic/turn
+  Hydroponics Lab (2/2): +1 food/turn
+
+PUBLIC
+  Park
+  Garden
+  Monument
+
+UTILITY
+  Excavation (2/2): Removes terrain on a cell
+  Scaffold (0/0, 1 construction materials):
+    - Used to stub out building areas or support construction without consuming building slots
+    - Deconstructs instantly, requires no engineers to deconstruct, yields full cost when deconstructed
+  Lift (4/2, 1e): Reduces effort of constructions up to three cells directly above or below this building by 1
+  Network Hub

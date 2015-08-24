@@ -1,0 +1,13 @@
+ATTACK
+
+3 hit     2, 0
+2 focus   0, 1
+1 crit    1, 1
+2 miss    0, 0
+
+DEFEND
+
+3 evade   2, 1
+3 blank   1, 0
+2 focus   3, 0
+
