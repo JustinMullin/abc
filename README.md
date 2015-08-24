@@ -8,13 +8,14 @@ and the ACME Super Deluxe Letter Counter 6.0 will collect your letters and deliv
 into its trademarked Count-O-Matic system.  Excess letters will be dropped neatly through
 the bottom chute for easy cleanup.  It's that easy!
 
+GIF of the sorter in action: [http://i.imgur.com/mf333PL.gifv](http://i.imgur.com/mf333PL.gifv)
+
 To Run
 ------
 'sbt run', or download and execute the JAR here: [ABC.jar](https://s3.amazonaws.com/JustinMullinMisc/ABC.jar)
 
 Technical Notes
 ---------------
-
 The ACME Super Deluxe Letter Counter 6.0 was written in Scala and uses the excellent
 [LibGDX game development framework](https://libgdx.badlogicgames.com/) in conjunction
 with [Box2D](http://box2d.org) for physics.  This is a prime example of
